@@ -19,11 +19,11 @@
 }
 
 .home {
-  border-bottom: 2px solid #159999;
-  color: #159999;
+  border-bottom: 2px solid #F8B195;
+  color: #F8B195;
 }
 .home:hover {
-  background-color: #62d4d4;
+  background-color: #F8B195;
 }
 
 .camp{
