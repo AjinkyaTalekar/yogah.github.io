@@ -1,4 +1,16 @@
+
+body{
+  background-color: white;
+  background-position: fixed;
+  padding-top: 80px;
+  scroll-behavior: smooth;
+  transition: scroll ease 1s;
+  width: 100%;
+}
+
+
 .button {
+  text-align: center;
   font-family: Trebuchet MS;
   text-decoration: none;
   display: inline-block;
@@ -8,8 +20,8 @@
   padding: 25px;
   padding-bottom: 30px;
   margin-right: -4.5px;
-  padding-left: 7.1%;
-  padding-right: 7.1%;
+  padding-left: 100px;
+  padding-right: 100px;
   width: 3%;
 }
 
@@ -51,31 +63,24 @@
 }
 
 .abt{
-  border-bottom: 2px solid #cd002c;
-  color: #e84669;
+  border-bottom: 2px solid #FF0BA6;
+  color: #FF57C2;
 }
 .abt:hover{
-  background-color: #e84669;
+  background-color: #FF57C2;
 }
 
 #navbar{
   position: fixed;
   background-color: white;
   width: 101%;
-  margin-left: -16px;
+  margin-left: -10px;
   top: 0px;
   align: center;
   transition: all ease 600ms;
 }
 
-body{
-  background-color: white;
-  background-position: fixed;
-  padding-top: 80px;
-  scroll-behavior: smooth;
-  transition: scroll ease 1s;
-  width: 100%;
-}
+
 
 p {
   font-family: Trebuchet MS;
@@ -83,11 +88,10 @@ p {
 }
 
 #content{
-    color: white;
+  color: white;
   background-attachment: fixed;
   padding: 170px;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -12px;
   margin-top: -10px;
 }
 
@@ -108,7 +112,15 @@ p {
 }
 
 .one {
-    background-image: url(japan.jpg);
+    background-image: url(two.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wite {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .wite{
@@ -121,17 +133,16 @@ h1 {
   font-size: 45px;
 }
 
-#wite {
-  margin-left: 30px;
-  margin-right: 30px;
+.two {
+  background-image: url(one.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.two {
-  background-image: url(abc.jpg);
-}
 
 .footer {
-  background-color: #1fa1ed;
+  background-color: white;
   margin-bottom: -40px;
   padding: 50px;
   background-attachment: fixed;
@@ -144,14 +155,14 @@ h1 {
 #foot {
   padding: 20px;
   border-bottom: 3px solid white;
-  color: white;
+  color: #1fa1ed;
   transition: all ease 400ms;
-  background-color: #1fa1ed;
+  background-color: white;
 }
 
 #foot:hover{
-  color: #1fa1ed;
+  color: white;
   padding-left: 80px;
   padding-right: 80px;
-  background-color: white;
+  background-color: #1fa1ed;
 }
