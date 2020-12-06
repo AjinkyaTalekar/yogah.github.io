@@ -31,7 +31,7 @@ p {
 }
 
 .one {
-    background-image: url(two.jpg);
+    background-image: url(1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ h2 {
 
 
 .two {
-  background-image: url(one.jpg);
+  background-image: url(2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ h2 {
 
 
 .footer {
-  background-color: #3C1D40;
+  background-color: #0C0146;
   color: white;
   font-size: 0px;
 }
