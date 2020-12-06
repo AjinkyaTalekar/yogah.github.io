@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
+.linke {
+  text-decoration: none;
+  color: #1F618D;
+}
+
+a {
+  color: #2E86C1;
+}
+
 p {
   font-family: Trebuchet MS;
   font-size: 250%;
@@ -29,9 +38,17 @@ p {
   color: white;
   background-color: #3d70ce;
 }
-
+.homex{
+  background-image: url(1.jpg);
+}
+.yogex{
+  background-image: url(4.jpg);
+}
+.abouts {
+  background-image: url(3.jpg);
+}
 .one {
-    background-image: url(1.jpg);
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,6 +68,22 @@ h1 {
   font-family: Trebuchet MS;
   font-size: 45px;
 }
+
+.titles {
+  font-size: 80px;
+}
+
+
+.abt {
+  text-shadow: 2px 2px #F5B041;
+}
+.hom {
+  text-shadow: 2px 2px #1A5276;
+}
+.yog {
+    text-shadow: 2px 2px #D68910;
+}
+
 
 h2 {
   font-family: Trebuchet MS;
@@ -421,4 +454,8 @@ body {
 	.myP {
 		padding:2%;
 	}
+}
+
+.true {
+  color: #3d70ce;
 }
