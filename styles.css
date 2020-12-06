@@ -1,28 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
-.product-grid6,.product-grid6 .product-image6{overflow:hidden;}
+.asane, .asane .imageas {
+  overflow:hidden;
+}
 
-.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s;}
+.asane { font-family:'Open Sans',sans-serif; text-align:center; position:relative; transition:all .5s ease 0s;}
 
-.product-grid6{box-shadow:0 0 10px rgba(0,0,0,.3);}
+.asane {
+  box-shadow:0 0 10px rgba(0,0,0,.3);
+}
 
-.product-grid6:hover{box-shadow:0 0 10px rgba(0,0,0,.6);}
+.asane:hover{
+  box-shadow:0 0 10px rgba(0,0,0,.6);
+}
 
-.product-grid6 .product-image6 a{display:block;}
+.asane .imageas a {display:block;}
 
-.product-grid6 .product-image6 img{width:100%;height:auto;transition:all .5s ease 0s;}
+.asane .imageas img {width:100%;height:auto;transition:all .5s ease 0s;}
 
-.product-grid6:hover .product-image6 img{transform:scale(1.1);}
+.asane:hover .imageas img{transform:scale(1.1);}
 
-.product-grid6 .product-content{padding:12px 12px 15px;transition:all .5s ease 0s;}
+.asane .product-content{padding:12px 12px 15px;transition:all .5s ease 0s;}
 
-.product-grid6 .title{font-size:20px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s; font-family: "Quicksand", sans-serif;}
+.asane .title{font-size:20px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s; font-family: "Quicksand", sans-serif;}
 
-.product-grid6 .title a{color:#000; }
+.asane .title a{color:#000; }
 
-.product-grid6 .title a:hover{color:#2e86de;}
+.asane .title a:hover{color:#2e86de;}
 
-.product-grid6 .diff{font-size:16px; font-family: "Quicksand", sans-serif;}
+.asane .diff{font-size:16px; font-family: "Quicksand", sans-serif;}
 
 .mod {
   color:#2e86de;
@@ -34,7 +40,7 @@
   color:#FF3333;
 }
 
-@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px;}
+@media only screen and (max-width:990px){.asane{margin-bottom:30px;}
 }
 
 .linke {
