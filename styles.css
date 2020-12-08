@@ -136,7 +136,7 @@ h2 {
 
 
 .two {
-  background-image: url(2.jpg);
+  background-image: url(5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -484,7 +484,6 @@ body {
     padding: 0;
     background-color: #111;
 }
-
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
