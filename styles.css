@@ -73,7 +73,7 @@ p {
   border: 2px solid #3d70ce;
   border-radius: 5px;
   padding: 10px;
-  transition: all ease 400ms;
+  transition: all ease 100ms;
 }
 
 .btn:hover{
@@ -258,8 +258,11 @@ body {
         overflow: hidden;
     }
     .nav div.show_list {
-        height: auto;
+        height: 30%;
         display: none;
+        padding-left: 10rem;
+        margin-top: -0.65rem;
+        margin-right: -0.8rem;
     }
     .nav div.main_list ul {
         flex-direction: column;
