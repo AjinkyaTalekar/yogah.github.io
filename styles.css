@@ -80,13 +80,13 @@ p {
   background-color: #3d70ce;
 }
 .homex{
-  background-image: url(1.jpg);
+  background-image: url('assets/1.webp');
 }
 .yogex{
-  background-image: url(4.jpg);
+  background-image: url('assets/4.webp');
 }
 .abouts {
-  background-image: url(3.jpg);
+  background-image: url('assets/3.webp');
 }
 .one {
 
@@ -132,7 +132,7 @@ h2 {
 
 
 .two {
-  background-image: url(5.jpg);
+  background-image: url('assets/5.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
